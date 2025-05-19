@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="images/k_ss.png" />
+    <title>Chesterfield Royal Hospital Navigation App | Kareem Eid</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Header & Navigation -->
+    <header class="header" role="banner" id="top">
+      <div class="row">
+        <nav class="nav" role="navigation">
+          <ul class="nav__items">
+            <li class="nav__item"><a href="index.html#work" class="nav__link">Back to Portfolio</a></li>
+            <li class="nav__item"><a href="#details" class="nav__link">Details</a></li>
+            <li class="nav__item"><a href="#gallery" class="nav__link">Gallery</a></li>
+          </ul>
+        </nav>
+        <div class="header__text">
+          <h1 class="heading-primary"><span>Chesterfield Royal Hospital </span></h1>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+      <section class="project-detail" id="details">
+        <div class="row">
+          <h2>About</h2>
+          <p>
+            <strong>Overview:</strong> A web-based navigation tool for Chesterfield Royal Hospital.Visitors can scan the QR codes dotted 
+            around the site and input their current location, then input their target destination. This will then display video walkthroughs
+            with audio and subtitles, and an interactable maps to guide the visitors to their desired location. Designed for accessability and
+            real-time route updates.
+          </p>
+
+          <h3>My Role</h3>
+          <p>
+            I served as the Team Lead, where I organised the Agile methodologies used, such as sprints, and kept close contact with the stake-holders.
+            I diverted the development to use start using React.js to match the NHS's current development framework so that our website
+            fits seamlessly and to use the best pratice possible. I coordinated with the back‑end team to design the JavaScript endpoints and 
+            oversaw usability testing with hospital staff.
+          </p>
+
+          <h3>Key Features & Technologies</h3>
+          <ul class="work__list">
+            <li>React.js framework</li>
+            <li>QR Code Scanning & Processing</li>
+            <li>Step-by-Step Video Walkthroughs</li>
+            <li>Real-Time Route Updates via WebSockets</li>
+            <li>Mobile‑first Responsive Design</li>
+            <li>Google Maps Geolocation API</li>
+            <li>MySQL Database</li>
+          </ul>
+
+          <a href="https://github.com/Finnbin02/Team_C_Chesterfield_Project.git" target="_blank" class="btn btn--pink">
+            View Code on GitHub
+          </a>
+        </div>
+      </section>
+
+      <section class="project-detail" id="gallery">
+        <div class="row">
+          <h2>Gallery</h2>
+          <div class="slideshow-container">
+            <div class="slide"><img src="./images/crh_ss.png" class="work__image" alt="CRH Screenshot 1" /></div>
+            <div class="slide"><img src="./images/crh_ss2.png" class="work__image" alt="CRH Screenshot 2" /></div>
+            <div class="slide"><img src="./images/crh_ss3.png" class="work__image" alt="CRH Screenshot 3" /></div>
+            <a class="prev" onclick="changeSlide(this, -1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(this, 1)">&#10095;</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo" class="footer">
+      <div class="row">
+        <p>&copy; 2025 Kareem Eid. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>

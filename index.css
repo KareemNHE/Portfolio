@@ -1,19 +1,75 @@
 /* --------------------------------------- */
 /* ----- Basic Setup ----- */
 /* --------------------------------------- */
+/* ------ Slideshow Styles ------ */
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .slide {
+    display: none;
+    animation: fade 1s ease-in-out;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 1rem;
+    margin-top: -2.5rem;
+    font-size: 2rem;
+    color: var(--pink);
+    font-weight: bold;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  /* ------ Dynamic Hover Effect for Project Boxes ------ */
+  .work__box {
+    transition: transform 0.3s;
+  }
+  
+  .work__box:hover {
+    transform: scale(1.02);
+  }
+
 
 @font-face {
-    font-family: 'Hk Grotesk';
-    font-style: normal;
-    font-weight: 400;
-    src: url('./fonts/HKGrotesk-Regular.woff') format('woff');
+  font-family: 'Hk Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/HKGrotesk-Regular.woff') format('woff');
 }
 
 @font-face {
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    src: url('./fonts/Jost-Regular.ttf') format('woff');
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/Jost-Regular.ttf') format('woff');
 }
 
 * {
@@ -113,6 +169,7 @@ section {
 img {
     object-fit: contain;
     max-width: 100%;
+    border-radius: 15px;
 }
 
 /* --------------------------------------- */

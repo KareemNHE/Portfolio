@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="images/k_ss.png" />
+    <title>Chesterfield Royal Hospital Navigation App | Kareem Eid</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Header & Navigation -->
+    <header class="header" role="banner" id="top">
+      <div class="row">
+        <nav class="nav" role="navigation">
+          <ul class="nav__items">
+            <li class="nav__item"><a href="index.html#work" class="nav__link">Back to Portfolio</a></li>
+            <li class="nav__item"><a href="#details" class="nav__link">Details</a></li>
+            <li class="nav__item"><a href="#gallery" class="nav__link">Gallery</a></li>
+          </ul>
+        </nav>
+        <div class="header__text">
+          <h1 class="heading-primary"><span>Sport Social Media Android Mobile Application</span></h1>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+      <section class="project-detail" id="details">
+        <div class="row">
+          <h2>About</h2>
+          <p>
+            <strong>Overview:</strong> The Shot is a sports-focused social media app built for fans, athletes, coaches, beginners, or people who 
+            simply want to learn a party trick safely! It’s designed to bring people together through their shared passion for sport — by posting videos, 
+            sharing highlights, and connecting in a supportive environment. The goal? To inspire, inform, and empower.
+
+          </p>
+
+          <h3>My Role</h3>
+          <p>
+            I developed the full app using Flutter - within the MVVM architecture - and Firebase - for the backend - within Android Studios. 
+            It works just like modern platforms users are used to — with posts, videos, likes, hashtags, and follows. But everything is filtered by sport, 
+            tailored to user interest, and supported by real-time news and private messaging.
+
+          </p>
+
+          <h3>Key Features & Technologies</h3>
+          <ul class="work__list">
+            <li>Android Studios</li>
+            <li>Flutter</li>
+            <li>Kotlin</li>
+            <li>MVVM</li>
+            <li>Dart</li>
+            <li>Firebase</li>
+          </ul>
+
+          <a href="https://github.com/KareemNHE/the_shot" target="_blank" class="btn btn--pink">
+            View Code on GitHub (Currently Private)
+          </a>
+        </div>
+      </section>
+
+        <style>
+            img {
+                max-height: 700px;
+                display: block;
+                margin: auto;
+            }
+        </style>
+
+      <section class="project-detail" id="gallery">
+        <div class="row">
+          <h2>Gallery</h2>
+          <div class="slideshow-container">
+            <div class="slide"><img src="./images/mobile_app_ss.png" class="work__image" alt="CRH Screenshot 1" />Login Screen</div>
+            <div class="slide"><img src="./images/mobile_app_ss2.png" class="work__image" alt="CRH Screenshot 2" />Signup Screen</div>
+            <div class="slide"><img src="./images/mobile_app_ss3.png" class="work__image" alt="CRH Screenshot 3" />Search Screen</div>
+            <div class="slide"><img src="./images/mobile_app_ss4.png" class="work__image" alt="CRH Screenshot 3" />News Article Screen</div>
+            <div class="slide"><img src="./images/mobile_app_ss5.png" class="work__image" alt="CRH Screenshot 3" />Profile Screen</div>
+            <div class="slide"><img src="./images/mobile_app_ss6.png" class="work__image" alt="CRH Screenshot 3" />Notification Screen</div>
+            <div class="slide"><img src="./images/mobile_app_ss7.png" class="work__image" alt="CRH Screenshot 3" />Chat Screen</div>
+            <div class="slide"><img src="./images/mobile_app_ss8.png" class="work__image" alt="CRH Screenshot 3" />Settings + Dark Theme Screen</div>
+            <a class="prev" onclick="changeSlide(this, -1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(this, 1)">&#10095;</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo" class="footer">
+      <div class="row">
+        <p>&copy; 2025 Kareem Eid. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>

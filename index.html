@@ -1,370 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="images/k_ss.png" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="images/k_ss.png" />
+    <!-- Site title -->
+    <title>Kareem Eid | 3rd Year Computer Science Student.</title>
+    <meta name="description" content="Add small description of yourself.">
+    <meta name="keywords" content="Kareem Eid, Web Development, HTML, CSS, JavaScript, JS, PHP, Python, C#, C++, Rest API, Leadership, Team Work, Project Management,
+          Flutter, Firebase, MySQL, SQLite, Mobile Application Development, Programming, React.js, Vue.js, Agile, Scrum, AI, Machine Learning, Tensorflow, 
+          Laravel, Dart, Android Development, IOS Development, Debugging, Security, Software Engineering, Software Development, OOP, Full Stack Development,
+          Backend Development, Frontend Development, Problem Solving" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
 
-  <!-- Put your site title here -->
-  <title>
-    Kareem Eid | 3rd Year Computer Science Student.
-  </title>
+  <body>
+    <!-- ***** Header ***** -->
+    <header class="header" role="banner" id="top">
+      <div class="row">
+        <nav class="nav" role="navigation">
+          <ul class="nav__items">
+            <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__text-box row">
+        <div class="header__text">
+          <h1 class="heading-primary"><span>Kareem Eid</span></h1>
+          <p>
+            A motivated and innovative Computer Science student with a strong foundation in software development, AI,
+            full-stack web, and mobile applications.
+            Excellent communication skills, thriving in collaborative environments. Enjoys creative work projects with a passion for personal development and
+            a strong work ethic.
+          </p>
+          <a href="#contact" class="btn btn--pink">Get in touch</a>
+        </div>
+      </div>
+    </header>
 
-  <meta name="description" content="Add small description of yourslef.">
-  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="Kareem Eid, Web Development, HTML, CSS, JavaScript, JS, PHP, Python, C#, C++, Rest API, Leadership, Team Work, Project Management,
-   Flutter, Firebase, MySQL, SQLite, Mobile Application Development, Programminng, React.js, Vue.js, Agile, Scrum, AI, Machine Learning, Tensorflow, 
-   Laravel, Dart, Android Development, IOS Developement, Debugging, Security, Software Engineering, Software Development, OOP, Full Stack Development,
-   Backend Development, Frontend Developement, Problem Solving" />
-  <link rel="stylesheet" href="index.css" />
-</head>
+    <main role="main">
+      <!-- ***** Work ***** -->
+      <section class="work" id="work">
+        <div class="row">
+          <h2>My Work</h2>
+          <div class="work__boxes">
+            <!-- Project 1 -->
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Advanced Library Management System Web Application <i>(Group Project)</i></h3>
+                <p>
+                  A full-featured online multimedia library system enabling users to create memberships and rent various media,
+                  including books, CDs, and journals. The system includes real-time availability tracking, an intuitive catalog search,
+                  and a user-friendly interface for seamless browsing and borrowing.
+                </p>
+                <ul class="work__list">
+                  <li>Laravel</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>PHP</li>
+                  <li>JavaScript</li>
+                  <li>MySQL</li>
+                  <li>phpMyAdmin</li>
+                </ul>
+                <div class="work__links">
+                  <a href="https://github.com/KareemNHE/Advanced_Library_Management_System.git" target="_blank" class="link__text">
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a href="https://github.com/KareemNHE/Advanced_Library_Management_System.git" title="View Source Code" target="_blank">
+                    <img src="./images/github.svg" class="work__code" alt="GitHub" />
+                  </a>
+                </div>
+              </div>
 
-<body>
+              <div class="work__image-box slideshow-container">
+                <div class="slide">
+                  <img src="./images/alms_ss.png" class="work__image" alt="Project 1 Image 1" />
+                </div>
+                <div class="slide">
+                  <img src="./images/alms_ss2.png" class="work__image" alt="Project 1 Image 2" />
+                </div>
+                <div class="slide">
+                  <img src="./images/alms_ss3.png" class="work__image" alt="Project 1 Image 3" />
+                </div>
+                <div class="slide">
+                  <img src="./images/alms_ss4.png" class="work__image" alt="Project 1 Image 4" />
+                </div>
+                <a class="prev" onclick="changeSlide(this, -1)">&#10094;</a>
+                <a class="next" onclick="changeSlide(this, 1)">&#10095;</a>
+              </div>
+            </div>
 
-  <!-- ***** Header ***** -->
+            <!-- Project 2 -->
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Chesterfield Royal Hospital Site Navigtion Web Application <i>(Group Project)</i></h3>
+                <p>
+                  A web-based hospital navigation system designed to assist visitors in finding their way through a
+                  complex hospital layout. Users can manually search for locations or scan QR codes at key points, receiving step-by-step
+                  video walkthroughs, interactive maps, and textual directions to their destination. The system also allows hospital staff to
+                  update routes dynamically for scalability.
+                </p>
+                <ul class="work__list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>PHP</li>
+                  <li>React.js</li>
+                  <li>JavaScript</li>
+                  <li>MySQL</li>
+                  <li>Geolocation API</li>
+                </ul>
+                <div class="work__links">
+                  <a href="project2.html" class="link__text">
+                    See More <span>&rarr;</span>
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box slideshow-container">
+                <div class="slide">
+                  <img src="./images/crh_ss.png" class="work__image" alt="Project 2 Image 1" />
+                </div>
+                <div class="slide">
+                  <img src="./images/crh_ss2.png" class="work__image" alt="Project 2 Image 2" />
+                </div>
+                <div class="slide">
+                  <img src="./images/crh_ss3.png" class="work__image" alt="Project 2 Image 3" />
+                </div>
+                <a class="prev" onclick="changeSlide(this, -1)">&#10094;</a>
+                <a class="next" onclick="changeSlide(this, 1)">&#10095;</a>
+              </div>
+            </div>
 
-  <header class="header" role="banner" id="top">
-    <div class="row">
-      <nav class="nav" role="navigation">
-        <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
+            <!-- Project 3 -->
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Sport Social Media Android Mobile Application</h3>
+                <p>
+                  A modern sports-focused social media platform offering users an all-in-one hub for sports news,
+                  entertainment, tutorials, and community interaction. Features include personalized content feeds, a discover tab for new sports,
+                  interactive gamification elements, and coaching tools for direct athlete–coach engagement.
+                </p>
+                <ul class="work__list">
+                  <li>Android Studio</li>
+                  <li>Flutter</li>
+                  <li>Kotlin</li>
+                  <li>MVVM</li>
+                  <li>Dart</li>
+                  <li>Firebase</li>
+                </ul>
+                <div class="work__links">
+                  <a href="project3.html" class="link__text">
+                    See More <span>&rarr;</span>
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box slideshow-container">
+                <div class="slide">
+                  <img src="./images/mobile_app_ss.png" class="work__image" alt="Project 3 Image 1" style="max-height: 700px; display: block; margin: auto;" />
+                </div>
+                <div class="slide">
+                  <img src="./images/mobile_app_ss2.png" class="work__image" alt="Project 3 Image 2" style="max-height: 700px; display: block; margin: auto;" />
+                </div>
+                <div class="slide">
+                  <img src="./images/mobile_app_ss3.png" class="work__image" alt="Project 3 Image 3" style="max-height: 700px; display: block; margin: auto;" />
+                </div>
+                <a class="prev" onclick="changeSlide(this, -1)">&#10094;</a>
+                <a class="next" onclick="changeSlide(this, 1)">&#10095;</a>
+              </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Ai Image Caption Generator</h3>
+                <p>
+                  An advanced AI-powered tool leveraging TensorFlow to generate accurate, context-aware captions for images.
+                  By training a deep learning model with a custom dataset, the system integrates an encoder–decoder architecture to provide
+                  meaningful descriptions, demonstrating expertise in artificial intelligence and computer vision.
+                </p>
+                <ul class="work__list">
+                  <li>Python</li>
+                  <li>TensorFlow</li>
+                </ul>
+                <div class="work__links">
+                  <a href="https://github.com/KareemNHE/AI_Image_Caption.git" class="link__text">
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a href="#">
+                    <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub" />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box slideshow-container">
+                <div class="slide">
+                  <img src="./images/ai_icg_ss.png" class="work__image" alt="Project 4 Image 1" />
+                </div>
+                <div class="slide">
+                  <img src="./images/ai_icg_ss2.png" class="work__image" alt="Project 4 Image 2" />
+                </div>
+                <a class="prev" onclick="changeSlide(this, -1)">&#10094;</a>
+                <a class="next" onclick="changeSlide(this, 1)">&#10095;</a>
+              </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Multiple Algorithm & Data Structure Programs</h3>
+                <p>
+                  A collection of advanced algorithm implementations, showcasing problem-solving strategies such as sorting algorithms
+                  (Bubble Sort, Quick Sort), heuristic search techniques, and data structures including graphs, trees, and hash tables.
+                  This project highlights efficiency optimization and computational complexity analysis.
+                </p>
+                <ul class="work__list">
+                  <li>C#</li>
+                  <li>C++</li>
+                </ul>
+                <div class="work__links">
+                  <a href="https://github.com/KareemNHE/Algorithm_and_Data_Structure.git" class="link__text">
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a href="#">
+                    <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub" />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box slideshow-container">
+                <div class="slide">
+                  <img src="./images/ads_ss.png" class="work__image" alt="Project 5 Image 1" />
+                </div>
+                <div class="slide">
+                  <img src="./images/ads2_ss.png" class="work__image" alt="Project 5 Image 2" />
+                </div>
+                <a class="prev" onclick="changeSlide(this, -1)">&#10094;</a>
+                <a class="next" onclick="changeSlide(this, 1)">&#10095;</a>
+              </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Student Progression Tracker Web Application <i>(Group Project)</i></h3>
+                <p>
+                  A university management tool that enables institutions to track student progress effectively. The system provides
+                  real-time visual insights through a color-coded performance tracker, direct email alerts, and administrative controls
+                  for managing student data, ensuring early intervention and academic support.
+                </p>
+                <ul class="work__list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>PHP</li>
+                  <li>JavaScript</li>
+                  <li>Vue.js</li>
+                  <li>SQLite</li>
+                </ul>
+                <div class="work__links">
+                  <a href="https://github.com/KareemNHE/Student_Progression_Tracker.git" class="link__text">
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a href="#">
+                    <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub" />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box slideshow-container">
+                <div class="slide">
+                  <img src="./images/student_tracker_ss.png" class="work__image" alt="Project 6 Image 1" />
+                </div>
+                <div class="slide">
+                  <img src="./images/student_tracker_ss2.png" class="work__image" alt="Project 6 Image 2" />
+                </div>
+                <div class="slide">
+                  <img src="./images/student_tracker_ss3.png" class="work__image" alt="Project 6 Image 3" />
+                </div>
+                <a class="prev" onclick="changeSlide(this, -1)">&#10094;</a>
+                <a class="next" onclick="changeSlide(this, 1)">&#10095;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ***** About ***** -->
+      <section class="about" id="about">
+        <div class="row">
+          <h2>Get To Know Me</h2>
+          <div class="about__content">
+            <div class="about__text">
+              <p>
+                A highly dedicated and self-driven individual, I’m motivated to excel in both work and personal life. My projects reflect my commitment
+                to quality, and my discipline is evident in my training—competing at the English Championships in trampolining (ranked 14th in the UK in 2023),
+                training five times a week, and maintaining a consistent gym schedule.
+              </p>
+              <p>
+                As a Computer Science student at Sheffield Hallam University, I’m passionate about developing innovative software solutions that solve real-world problems.
+                I have a strong foundation in full-stack web development, mobile application development, and AI technologies. I’m always eager to enhance my technical
+                expertise, whether by building intuitive mobile applications with Flutter and Kotlin or designing AI models with TensorFlow.
+              </p>
+              <p>
+                I thrive in collaborative environments where I can apply my technical skills while fostering teamwork and communication. My projects, such as a sports-focused social media app
+                and a student attendance sign-in system, highlight both my technical proficiency and commitment to crafting user-centric solutions.
+              </p>
+              <p>
+                Beyond tech, I’m an avid traveler and culture enthusiast, having lived in Egypt, Saudi Arabia, and Dubai, which has given me a broad, adaptable perspective.
+                I’m also passionate about food and cooking, where I enjoy experimenting with new recipes—an extension of my curiosity and drive for continuous improvement.
+              </p>
+              <a href="Kareem Eid CV.pdf" class="btn">My Resume</a>
+            </div>
+
+            <div class="about__photo-container">
+              <img class="about__photo" src="./images/me.jpg" alt="Kareem Eid" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ***** Contact ***** -->
+    <section class="contact" id="contact">
+      <div class="row">
+        <h2>Get in Touch</h2>
+        <div class="contact__info">
+          <p>
+            If you’re interested in discussing opportunities in software development or cybersecurity, have questions about my work,
+            or would like to connect, I’d love to hear from you.
+          </p>
+          <p>
+            I’m always open to exploring new challenges and expanding my knowledge. The best way to reach me is via email,
+            and I’ll do my best to respond promptly.
+          </p>
+          <a href="mailto:kareemnhe@gmail.com" class="btn">kareemnhe@gmail.com</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Footer ***** -->
+    <footer role="contentinfo" class="footer">
+      <div class="row">
+        <ul class="footer__social-links">
+          <li class="footer__social-link-item">
+            <a href="https://instagram.com/KareemNHE?igsh=Z2hvanc3azZsOXh5&utm_source=qr" title="Link to Instagram Profile">
+              <img src="./images/logo-instagram.svg" class="footer__social-image" alt="Instagram" />
+            </a>
           </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
+          <li class="footer__social-link-item">
+            <a href="https://github.com/KareemNHE" title="Link to Github Profile">
+              <img src="./images/github.svg" class="footer__social-image" alt="Github" />
+            </a>
+          </li>
+          <li class="footer__social-link-item">
+            <a href="www.linkedin.com/in/kareemnheid">
+              <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin" />
+            </a>
           </li>
         </ul>
-      </nav>
-    </div>
-    <div class="header__text-box row">
-      <div class="header__text">
-        <h1 class="heading-primary">
-          <!-- Replace the following name with your name -->
-          <span>Kareem Eid</span>
-        </h1>
-        <!-- Put a small paragraph about yourself -->
-        <p>A motivated and innovative Computer Science student with a strong foundation in software development, AI,
-          full-stack web, and mobile applications.
-          Excellent communication skills, thriving in collaborative environment. Enjoys creative work projects with a
-          passion for personal development and
-          strong work ethic.</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
       </div>
-    <!-- <img src="images/profile_pic.jpg" alt="Kareem Eid" class="profile-img" /> -->
-    </div>
-  </header>
+    </footer>
 
-  <main role="main">
-
-    <!-- ***** Work ***** -->
-
-    <section class="work" id="work">
-      <div class="row">
-        <h2>My Work</h2>
-        <div class="work__boxes">
-
-          <!-- Each div with the work__box class is a project. -->
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Advanced Library Management System Web Application <i>(Group Project)</i> </h3>
-              <p>
-                A full-featured online multimedia library system enabling users to create memberships and rent various
-                media,
-                including books, CDs, and journals. The system includes real-time availability tracking, an intuitive
-                catalog search,
-                and a user-friendly interface for seamless browsing and borrowing.
-              </p>
-              <ul class="work__list">
-                <li>Laravel</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>PHP</li>
-                <li>JavaScript</li>
-                <li>MySQL</li>
-                <li>phpMyAdmin</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://github.com/KareemNHE/Advanced_Library_Management_System.git" target="_blank"
-                  class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/KareemNHE/Advanced_Library_Management_System.git" title="View Source Code"
-                  target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/alms_ss.png" class="work__image" alt="Project 1" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Chesterfield Royal Hospital Site Navigtion Web Application <i>(Group Project)</i></h3>
-              <p>
-                A web-based hospital navigation system designed to assist visitors in finding their way through a
-                complex hospital
-                layout. Users can manually search for locations or scan QR codes at key points, receiving step-by-step
-                video walkthroughs,
-                interactive maps, and textual directions to their destination. The system also allows hospital staff to
-                update routes
-                dynamically for scalability.
-              </p>
-              <ul class="work__list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>PHP</li>
-                <li>React.js</li>
-                <li>JavaScript</li>
-                <li>MySQL</li>
-                <li>Geolocation API</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://github.com/Finnbin02/Team_C_Chesterfield_Project.git" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/crh_ss.png" class="work__image" alt="Project 3" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Sport Social Media Android Mobile Application</h3>
-              <p>
-                A modern sports-focused social media platform built with, offering users an all-in-one hub for sports
-                news,
-                entertainment, tutorials, and community interaction. Features include personalized content feeds, a
-                discover
-                tab for new sports, interactive gamification elements, and coaching tools for direct athlete-coach
-                engagement.
-              </p>
-              <ul class="work__list">
-                <li>Android Studio</li>
-                <li>Flutter</li>
-                <li>Kotlin</li>
-                <li>MVVM</li>
-                <li>Dart</li>
-                <li>Firebase</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://github.com/KareemNHE/The_Shot.git" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/mobile_app_ss.png" class="work__image" alt="Project 3" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Ai Image Caption Generator</h3>
-              <p>
-                An advanced AI-powered tool leveraging TensorFlow to generate accurate, context-aware captions for
-                images.
-                By training a deep learning model with a custom dataset, the system integrates an encoder-decoder
-                architecture
-                to provide meaningful descriptions, demonstrating expertise in artificial intelligence and computer
-                vision.
-              </p>
-              <ul class="work__list">
-                <li>Python</li>
-                <li>TensorFlow</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://github.com/KareemNHE/AI_Image_Caption.git" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/ai_icg_ss.png" class="work__image" alt="Project 4" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Multiple Algorithm & Data Structure Programs</h3>
-              <p>
-                A collection of advanced algorithm implementations, showcasing problem-solving strategies such as
-                sorting algorithms (Bubble Sort, Quick Sort), heuristic search techniques, and data structures including
-                graphs,
-                trees, and hash tables. This project highlights efficiency optimization and computational complexity
-                analysis.
-              </p>
-              <ul class="work__list">
-                <li>C#</li>
-                <li>C++</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://github.com/KareemNHE/Algorithm_and_Data_Structure.git" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/ads_ss.png" class="work__image" alt="Project 5" />
-              <!-- <img src="./images/ads2_ss.png" class="work__image" alt="Project 5" /> -->
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Student Progression Tracker Web Application <i>(Group Project)</i></h3>
-              <p>
-                A university management tool that enables institutions to track student progress effectively. The system
-                provides
-                real-time visual insights through a color-coded performance tracker, direct email alerts, and
-                administrative controls
-                for managing student data, ensuring early intervention and academic support.
-              </p>
-              <ul class="work__list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>PHP</li>
-                <li>JavaScript</li>
-                <li>Vue.js</li>
-                <li>SQLite</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://github.com/KareemNHE/Student_Progression_Tracker.git" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/student_tracker_ss2.png" class="work__image" alt="Project 6" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ***** About ***** -->
-
-    <section class="about" id="about">
-      <div class="row">
-        <h2>Get To Know Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-            <p>
-              A highly dedicated and self-driven individual, I’m motivated to excel in both work and personal life. My
-              projects reflect my commitment to quality, and my discipline is evident in my training—competing at the
-              English Championships in trampolining (ranked 14th in the UK in 2023), training five times a week, and
-              maintaining a consistent gym schedule.
-            </p>
-            <p>
-              As a Computer Science student at Sheffield Hallam University, I’m passionate about developing innovative
-              software solutions that solve real-world problems. I have a strong foundation in full-stack web
-              development, mobile application development, and AI technologies. I’m always eager to enhance my technical
-              expertise, whether by building intuitive mobile applications with Flutter and Kotlin or designing AI
-              models with TensorFlow.
-            </p>
-            <p>
-              I thrive in collaborative environments where I can apply my technical skills while fostering teamwork and
-              communication. My projects, such as a sports-focused social media app and a student attendance sign-in
-              system, highlight both my technical proficiency and commitment to crafting user-centric solutions.
-            </p>
-            <p>
-              Beyond tech, I’m an avid traveler and culture enthusiast, having lived in Egypt, Saudi Arabia, and Dubai,
-              which has given me a broad, adaptable perspective. I’m also passionate about food and cooking, where I
-              enjoy experimenting with new recipes—an extension of my curiosity and drive for continuous improvement.
-            </p>
-            <!-- Provide a link to your resume -->
-            <a href="Kareem Eid CV.pdf" class="btn">My Resume</a>
-          </div>
-
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/me.jpg" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- ***** Contact ***** -->
-
-  <section class="contact" id="contact">
-    <div class="row">
-      <h2>Get in Touch</h2>
-      <div class="contact__info">
-        <p>
-          If you’re interested in discussing opportunities in software development or cybersecurity, have questions
-          about my work, or would like to connect, I’d love to hear from you.
-        </p>
-        <p>
-          I’m always open to exploring new challenges and expanding my knowledge. The best way to reach me is via email,
-          and I’ll do my best to respond promptly.
-        </p>
-        <!-- Replace the email with yours -->
-        <a href="mailto:kareemnhe@gmail.com" class="btn">kareemnhe@gmail.com</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ***** Footer ***** -->
-
-  <footer role="contentinfo" class="footer">
-    <div class="row">
-      <!-- Update the links to point to your accounts -->
-      <ul class="footer__social-links">
-        <li class="footer__social-link-item">
-          <a href="https://instagram.com/KareemNHE?igsh=Z2hvanc3azZsOXh5&utm_source=qr"
-            title="Link to Instagram Profile">
-            <img src="./images/logo-instagram.svg" class="footer__social-image" alt="Twitter">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://github.com/KareemNHE" title="Link to Github Profile">
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="www.linkedin.com/in/kareemnheid">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image"
-              alt="Linkedin">
-          </a>
-        </li>
-      </ul>
-
-    </div>
-  </footer>
-
-  <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
-  </a>
-  <script src="./index.js"></script>
-</body>
-
+    <a href="#top" class="back-to-top" title="Back to Top">
+      <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
+    </a>
+    <script src="./index.js"></script>
+  </body>
 </html>
