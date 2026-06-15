@@ -4,12 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" type="image/png" href="images/k_ss.png" />
-    <title>Chesterfield Royal Hospital Navigation App | Kareem Eid</title>
+    <title>Chesterfield Royal Hospital Navigation System | Kareem Eid</title>
+    <meta name="description" content="Detailed case study for Chesterfield Royal Hospital Navigation System by Kareem Eid." />
     <link rel="stylesheet" href="index.css" />
+
+    <style>
+      .project-hero { padding: 9rem 0 5rem; }
+      .project-kicker { font-size: 1.4rem; letter-spacing: .08em; text-transform: uppercase; opacity: .85; margin-bottom: 1.6rem; }
+      .project-summary { max-width: 920px; font-size: 2.1rem; line-height: 1.55; margin-top: 2.4rem; }
+      .project-section { padding: 7rem 0; }
+      .project-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 5rem; align-items: start; }
+      .project-card { border: 1px solid rgba(255,255,255,.16); border-radius: 18px; padding: 2.8rem; background: rgba(255,255,255,.035); }
+      .project-card h3 { margin-top: 0; margin-bottom: 1.6rem; }
+      .project-card p { margin-bottom: 1.6rem; }
+      .project-list { list-style: none; padding: 0; margin: 0; }
+      .project-list li { margin-bottom: 1.2rem; line-height: 1.6; }
+      .project-list li::before { content: "•"; margin-right: .8rem; color: var(--pink); }
+      .tag-list { display: flex; flex-wrap: wrap; gap: 1rem; list-style: none; padding: 0; margin: 1.6rem 0 0; }
+      .tag-list li { padding: .8rem 1.2rem; border-radius: 999px; background: rgba(255,255,255,.09); font-size: 1.4rem; }
+      .metric-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.6rem; margin-top: 3rem; }
+      .metric-card { border-radius: 16px; padding: 2rem; background: rgba(255,255,255,.06); }
+      .metric-card strong { display: block; font-size: 2.2rem; margin-bottom: .5rem; }
+      .gallery-caption { text-align: center; margin-top: 1.2rem; font-size: 1.5rem; opacity: .9; }
+      .project-gallery img { max-height: 720px; display: block; margin: auto; object-fit: contain; }
+      .back-link { display: inline-block; margin-top: 2rem; }
+      @media(max-width: 900px) { .project-grid, .metric-grid { grid-template-columns: 1fr; } .project-summary { font-size: 1.8rem; } }
+    </style>
+
   </head>
   <body>
-    <!-- Header & Navigation -->
-    <header class="header" role="banner" id="top">
+    <header class="header project-hero" role="banner" id="top">
       <div class="row">
         <nav class="nav" role="navigation">
           <ul class="nav__items">
@@ -19,54 +43,73 @@
           </ul>
         </nav>
         <div class="header__text">
-          <h1 class="heading-primary"><span>Chesterfield Royal Hospital </span></h1>
+          <p class="project-kicker">Healthcare Navigation Platform</p>
+          <h1 class="heading-primary"><span>Chesterfield Royal Hospital Navigation System</span></h1>
+          <p class="project-summary">A React based navigation system designed to help hospital visitors reach departments using QR codes, video walkthroughs, maps, and accessible directions.</p>
+          <a href="index.html#work" class="btn btn--pink back-link">Back to projects</a>
         </div>
       </div>
     </header>
 
     <main role="main">
-      <section class="project-detail" id="details">
-        <div class="row">
-          <h2>About</h2>
-          <p>
-            <strong>Overview:</strong> A web-based navigation tool for Chesterfield Royal Hospital.Visitors can scan the QR codes dotted 
-            around the site and input their current location, then input their target destination. This will then display video walkthroughs
-            with audio and subtitles, and an interactable maps to guide the visitors to their desired location. Designed for accessability and
-            real-time route updates.
-          </p>
-
-          <h3>My Role</h3>
-          <p>
-            I served as the Team Lead, where I organised the Agile methodologies used, such as sprints, and kept close contact with the stake-holders.
-            I diverted the development to use start using React.js to match the NHS's current development framework so that our website
-            fits seamlessly and to use the best pratice possible. I coordinated with the back‑end team to design the JavaScript endpoints and 
-            oversaw usability testing with hospital staff.
-          </p>
-
-          <h3>Key Features & Technologies</h3>
-          <ul class="work__list">
-            <li>React.js framework</li>
-            <li>QR Code Scanning & Processing</li>
-            <li>Step-by-Step Video Walkthroughs</li>
-            <li>Real-Time Route Updates via WebSockets</li>
-            <li>Mobile‑first Responsive Design</li>
-            <li>Google Maps Geolocation API</li>
-            <li>MySQL Database</li>
-          </ul>
-
-          <a href="https://github.com/Finnbin02/Team_C_Chesterfield_Project.git" target="_blank" class="btn btn--pink">
-            View Code on GitHub
-          </a>
+      <section class="project-section" id="details">
+        <div class="row project-grid">
+          <div class="project-card">
+            <h2>Project Overview</h2>
+            <p>This project addressed a real-world navigation challenge within a complex hospital environment. The platform allowed visitors to identify their current location using QR codes and receive clear route guidance through maps, video walkthroughs, audio, and written instructions.</p>
+            <h3>My Role</h3>
+            <p>I led the project team, coordinated Agile delivery, maintained communication with stakeholders, and guided the technical direction toward a React based frontend supported by scalable backend functionality. The project received highly positive stakeholder feedback due to its practical value and implementation potential.</p>
+          </div>
+          <div class="project-card">
+            <h3>Technology Stack</h3>
+            <ul class="tag-list">
+              <li>React.js</li>
+              <li>Node.js</li>
+              <li>REST APIs</li>
+              <li>MySQL</li>
+              <li>QR Codes</li>
+              <li>Agile Scrum</li>
+              <li>Accessibility</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row metric-grid">
+            <div class="metric-card"><strong>First Class</strong><span>Project result</span></div>
+            <div class="metric-card"><strong>Team Lead</strong><span>Agile delivery</span></div>
+            <div class="metric-card"><strong>Stakeholder led</strong><span>Real client feedback</span></div>
         </div>
       </section>
 
-      <section class="project-detail" id="gallery">
+      <section class="project-section">
+        <div class="row project-grid">
+          <div class="project-card">
+            <h2>Key Features</h2>
+            <ul class="project-list">
+              <li>QR based location selection for visitors navigating from key points around the hospital.</li>
+              <li>Step by step route guidance using video walkthroughs, maps, audio, and subtitles.</li>
+              <li>Staff update capability so routes and content could be maintained without developer involvement.</li>
+              <li>Mobile responsive interface designed for visitors using the system on-site.</li>
+              <li>Accessible navigation experience with visual, written, and audio support.</li>
+            </ul>
+          </div>
+          <div class="project-card">
+            <h2>Technical Challenges</h2>
+            <ul class="project-list">
+              <li>Designing route guidance that was simple enough for stressed or unfamiliar visitors.</li>
+              <li>Creating a maintainable structure so hospital staff could update route content.</li>
+              <li>Balancing stakeholder requirements with technical feasibility during sprint delivery.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="project-section project-gallery" id="gallery">
         <div class="row">
           <h2>Gallery</h2>
           <div class="slideshow-container">
-            <div class="slide"><img src="./images/crh_ss.png" class="work__image" alt="CRH Screenshot 1" /></div>
-            <div class="slide"><img src="./images/crh_ss2.png" class="work__image" alt="CRH Screenshot 2" /></div>
-            <div class="slide"><img src="./images/crh_ss3.png" class="work__image" alt="CRH Screenshot 3" /></div>
+              <div class="slide"><img src="./images/crh_ss.png" class="work__image" alt="Navigation landing page" /><p class="gallery-caption">Navigation landing page</p></div>
+              <div class="slide"><img src="./images/crh_ss2.png" class="work__image" alt="Route selection flow" /><p class="gallery-caption">Route selection flow</p></div>
+              <div class="slide"><img src="./images/crh_ss3.png" class="work__image" alt="Map and direction view" /><p class="gallery-caption">Map and direction view</p></div>
             <a class="prev" onclick="changeSlide(this, -1)">&#10094;</a>
             <a class="next" onclick="changeSlide(this, 1)">&#10095;</a>
           </div>
@@ -74,13 +117,33 @@
       </section>
     </main>
 
-    <!-- Footer -->
     <footer role="contentinfo" class="footer">
       <div class="row">
         <p>&copy; 2025 Kareem Eid. All rights reserved.</p>
       </div>
     </footer>
 
-    <script src="index.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll(".slideshow-container").forEach((container) => {
+          const slides = container.querySelectorAll(".slide");
+          slides.forEach((slide, index) => slide.style.display = index === 0 ? "block" : "none");
+        });
+      });
+      function changeSlide(btn, n) {
+        const container = btn.parentElement;
+        const slides = container.querySelectorAll(".slide");
+        let currentIndex = 0;
+        slides.forEach((slide, index) => {
+          if (slide.style.display === "block") currentIndex = index;
+        });
+        let newIndex = currentIndex + n;
+        if (newIndex < 0) newIndex = slides.length - 1;
+        if (newIndex >= slides.length) newIndex = 0;
+        slides.forEach(slide => slide.style.display = "none");
+        slides[newIndex].style.display = "block";
+      }
+    </script>
+
   </body>
 </html>
