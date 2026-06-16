@@ -174,7 +174,15 @@ img {
 
 
 .budget-planner-gallery img {
-    max-height: 440px;
+    max-height: 500px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+.the-shot-gallery img {
+    max-height: 560px;
     width: auto;
     display: block;
     margin: 0 auto;
