@@ -172,6 +172,15 @@ img {
     border-radius: 15px;
 }
 
+
+.budget-planner-gallery img {
+    max-height: 440px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
 /* --------------------------------------- */
 /* ----- Headlines and Paragraphs ----- */
 /* --------------------------------------- */

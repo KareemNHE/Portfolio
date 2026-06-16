@@ -1,455 +1,495 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" type="image/png" href="images/k_ss.png" />
 
-    <title>Kareem Eid | Software Engineer</title>
-    <meta
-      name="description"
-      content="Software Engineer specialising in full-stack, mobile, testing, and AI-driven solutions. Experienced with React, Spring Boot, Java, Python, Flutter, Kotlin, Firebase, and modern software engineering practices."
-    />
-    <meta
-      name="keywords"
-      content="Kareem Eid, Software Engineer, Full Stack Developer, Mobile App Developer, React.js, Spring Boot, Java, Python, Flutter, Kotlin, Firebase, REST APIs, AI, Machine Learning, TensorFlow, Manual Testing, ISTQB, Agile, Scrum, MySQL, MongoDB, Docker, GitHub"
-    />
-    <link rel="stylesheet" href="index.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="images/k_ss.png" />
 
-  <body>
-    <!-- ***** Header ***** -->
-    <header class="header" role="banner" id="top">
+  <title>Kareem Eid | Software Engineer</title>
+  <meta name="description"
+    content="Software Engineer specialising in full-stack, mobile, testing, and AI-driven solutions. Experienced with React, Spring Boot, Java, Python, Flutter, Kotlin, Firebase, and modern software engineering practices." />
+  <meta name="keywords"
+    content="Kareem Eid, Software Engineer, Full Stack Developer, Mobile App Developer, React.js, Spring Boot, Java, Python, Flutter, Kotlin, Firebase, REST APIs, AI, Machine Learning, TensorFlow, Manual Testing, ISTQB, Agile, Scrum, MySQL, MongoDB, Docker, GitHub" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <!-- ***** Header ***** -->
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary"><span>Kareem Eid</span></h1>
+        <p>
+          Software Engineer specialising in full-stack and mobile application development, with experience delivering
+          solutions across financial services and technology environments. I build scalable web, mobile, and AI-driven
+          products with a focus on quality, user experience, and real-world impact.
+        </p>
+        <a href="#work" class="btn btn--pink">View my work</a>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+    <!-- ***** Work ***** -->
+    <section class="work" id="work">
       <div class="row">
-        <nav class="nav" role="navigation">
-          <ul class="nav__items">
-            <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-            <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-            <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-
-      <div class="header__text-box row">
-        <div class="header__text">
-          <h1 class="heading-primary"><span>Kareem Eid</span></h1>
-          <p>
-            Software Engineer specialising in full-stack and mobile application development, with experience delivering
-            solutions across financial services and technology environments. I build scalable web, mobile, and AI-driven
-            products with a focus on quality, user experience, and real-world impact.
-          </p>
-          <a href="#work" class="btn btn--pink">View my work</a>
-          <a href="#contact" class="btn btn--pink">Get in touch</a>
-        </div>
-      </div>
-    </header>
-
-    <main role="main">
-      <!-- ***** Work ***** -->
-      <section class="work" id="work">
-        <div class="row">
-          <h2>Featured Work</h2>
-          <div class="work__boxes">
-            <!-- Project 1: Sports Social Media App -->
-            <div class="work__box">
-              <div class="work__text">
-                <h3>Sports Social Media Mobile Application</h3>
-                <p>
-                  A sports-focused social media platform currently being developed towards production release. The app
-                  combines real-time interactions, personalised feeds, secure authentication, and sports-specific content
-                  to create a modern community experience for athletes and fans.
-                </p>
-                <ul class="work__list">
-                  <li>Flutter</li>
-                  <li>Kotlin</li>
-                  <li>Dart</li>
-                  <li>Firebase</li>
-                  <li>Provider</li>
-                  <li>MVVM</li>
-                  <li>REST APIs</li>
-                </ul>
-                <p>
-                  <strong>Key features:</strong> real-time messaging, personalised feeds, follows, likes, comments,
-                  hashtags, secure login, dark mode, discussion threads, and sports data integration.
-                </p>
-                <div class="work__links">
-                  <a href="project3.html" class="link__text">
-                    See More <span>&rarr;</span>
-                  </a>
-                </div>
-              </div>
-              <div class="work__image-box slideshow-container">
-                <div class="slide">
-                  <img src="./images/mobile_app_ss.png" class="work__image" alt="Sports social media app screenshot 1" style="max-height: 700px; display: block; margin: auto;" />
-                </div>
-                <div class="slide">
-                  <img src="./images/mobile_app_ss2.png" class="work__image" alt="Sports social media app screenshot 2" style="max-height: 700px; display: block; margin: auto;" />
-                </div>
-                <div class="slide">
-                  <img src="./images/mobile_app_ss3.png" class="work__image" alt="Sports social media app screenshot 3" style="max-height: 700px; display: block; margin: auto;" />
-                </div>
-                <a class="prev" onclick="changeSlide(this, -1)">&#10094;</a>
-                <a class="next" onclick="changeSlide(this, 1)">&#10095;</a>
+        <h2>Featured Work</h2>
+        <div class="work__boxes">
+          <!-- Project 1: Sports Social Media App -->
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Sports Social Media Mobile Application</h3>
+              <p>
+                A sports-focused social media platform currently being developed towards production release. The app
+                combines real-time interactions, personalised feeds, secure authentication, and sports-specific content
+                to create a modern community experience for athletes and fans.
+              </p>
+              <ul class="work__list">
+                <li>Flutter</li>
+                <li>Kotlin</li>
+                <li>Dart</li>
+                <li>Firebase</li>
+                <li>Provider</li>
+                <li>MVVM</li>
+                <li>REST APIs</li>
+              </ul>
+              <p>
+                <strong>Key features:</strong> real-time messaging, personalised feeds, follows, likes, comments,
+                hashtags, secure login, dark mode, discussion threads, and sports data integration.
+              </p>
+              <div class="work__links">
+                <a href="project3.html" class="link__text">
+                  See More <span>&rarr;</span>
+                </a>
               </div>
             </div>
+            <div class="work__image-box slideshow-container budget-planner-gallery">
 
-            <!-- Project 2: Chesterfield Royal Hospital -->
-            <div class="work__box">
-              <div class="work__text">
-                <h3>Chesterfield Royal Hospital Navigation Web Application <i>(Group Project)</i></h3>
-                <p>
-                  A user-centred hospital navigation system designed to help visitors move through a complex hospital
-                  site using QR codes, interactive maps, written directions, and video walkthroughs. The platform also
-                  gives staff the ability to update route information, making the system scalable and easier to maintain.
-                </p>
-                <ul class="work__list">
-                  <li>React.js</li>
-                  <li>JavaScript</li>
-                  <li>PHP</li>
-                  <li>MySQL</li>
-                  <li>REST APIs</li>
-                  <li>Geolocation API</li>
-                  <li>Agile Scrum</li>
-                </ul>
-                <p>
-                  <strong>Key focus:</strong> accessibility, user experience, route management, QR-based navigation,
-                  and real-world stakeholder requirements.
-                </p>
-                <div class="work__links">
-                  <a href="project2.html" class="link__text">
-                    See More <span>&rarr;</span>
-                  </a>
-                </div>
+            <div class="work__image-box slideshow-container">
+              <div class="slide">
+                <img src="./images/mobile_app_ss.png" class="work__image" alt="Sports social media app screenshot 1"
+                  style="max-height: 700px; display: block; margin: auto;" />
               </div>
-              <div class="work__image-box slideshow-container">
-                <div class="slide">
-                  <img src="./images/crh_ss.png" class="work__image" alt="Chesterfield Royal Hospital project screenshot 1" />
-                </div>
-                <div class="slide">
-                  <img src="./images/crh_ss2.png" class="work__image" alt="Chesterfield Royal Hospital project screenshot 2" />
-                </div>
-                <div class="slide">
-                  <img src="./images/crh_ss3.png" class="work__image" alt="Chesterfield Royal Hospital project screenshot 3" />
-                </div>
-                <a class="prev" onclick="changeSlide(this, -1)">&#10094;</a>
-                <a class="next" onclick="changeSlide(this, 1)">&#10095;</a>
+              <div class="slide">
+                <img src="./images/mobile_app_ss2.png" class="work__image" alt="Sports social media app screenshot 2"
+                  style="max-height: 700px; display: block; margin: auto;" />
               </div>
-            </div>
-
-            <!-- Project 3: AI Image Caption Generator -->
-            <div class="work__box">
-              <div class="work__text">
-                <h3>AI Image Caption Generator</h3>
-                <p>
-                  An AI-powered image captioning project built with Python and TensorFlow. The system uses a deep
-                  learning pipeline and encoder-decoder architecture to generate natural language descriptions for images,
-                  demonstrating practical experience in machine learning, data preparation, and model evaluation.
-                </p>
-                <ul class="work__list">
-                  <li>Python</li>
-                  <li>TensorFlow</li>
-                  <li>NumPy</li>
-                  <li>Pandas</li>
-                  <li>Deep Learning</li>
-                </ul>
-                <div class="work__links">
-                  <a href="project4.html" class="link__text">
-                    See More <span>&rarr;</span>
-                  </a>
-                  <a href="https://github.com/KareemNHE/AI_Image_Caption.git" title="View Source Code" target="_blank">
-                    <img src="./images/github.svg" class="work__code" alt="GitHub" />
-                  </a>
-                </div>
+              <div class="slide">
+                <img src="./images/mobile_app_ss3.png" class="work__image" alt="Sports social media app screenshot 3"
+                  style="max-height: 700px; display: block; margin: auto;" />
               </div>
-              <div class="work__image-box slideshow-container">
-                <div class="slide">
-                  <img src="./images/ai_icg_ss.png" class="work__image" alt="AI image caption generator screenshot 1" />
-                </div>
-                <div class="slide">
-                  <img src="./images/ai_icg_ss2.png" class="work__image" alt="AI image caption generator screenshot 2" />
-                </div>
-                <a class="prev" onclick="changeSlide(this, -1)">&#10094;</a>
-                <a class="next" onclick="changeSlide(this, 1)">&#10095;</a>
-              </div>
-            </div>
-
-            <!-- Project 4: Library Management System -->
-            <div class="work__box">
-              <div class="work__text">
-                <h3>Advanced Library Management System Web Application <i>(Group Project)</i></h3>
-                <p>
-                  A full-stack multimedia library platform supporting user memberships, media rentals, secure access,
-                  catalogue search, and availability tracking. The project demonstrates backend development, database
-                  design, authentication, and payment workflow implementation.
-                </p>
-                <ul class="work__list">
-                  <li>Laravel</li>
-                  <li>PHP</li>
-                  <li>JavaScript</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>MySQL</li>
-                  <li>phpMyAdmin</li>
-                </ul>
-                <div class="work__links">
-                  <a href="project1.html" class="link__text">
-                    See More <span>&rarr;</span>
-                  </a>
-                  <a href="https://github.com/KareemNHE/Advanced_Library_Management_System.git" title="View Source Code" target="_blank">
-                    <img src="./images/github.svg" class="work__code" alt="GitHub" />
-                  </a>
-                </div>
-              </div>
-
-              <div class="work__image-box slideshow-container">
-                <div class="slide">
-                  <img src="./images/alms_ss.png" class="work__image" alt="Library management project screenshot 1" />
-                </div>
-                <div class="slide">
-                  <img src="./images/alms_ss2.png" class="work__image" alt="Library management project screenshot 2" />
-                </div>
-                <div class="slide">
-                  <img src="./images/alms_ss3.png" class="work__image" alt="Library management project screenshot 3" />
-                </div>
-                <div class="slide">
-                  <img src="./images/alms_ss4.png" class="work__image" alt="Library management project screenshot 4" />
-                </div>
-                <a class="prev" onclick="changeSlide(this, -1)">&#10094;</a>
-                <a class="next" onclick="changeSlide(this, 1)">&#10095;</a>
-              </div>
-            </div>
-
-            <!-- Project 5: Student Progression Tracker -->
-            <div class="work__box">
-              <div class="work__text">
-                <h3>Student Progression Tracker Web Application <i>(Group Project)</i></h3>
-                <p>
-                  A university management tool that helps academic staff monitor student progress through visual tracking,
-                  administrative controls, and communication features. The system was designed to support early intervention
-                  and improve visibility over student performance.
-                </p>
-                <ul class="work__list">
-                  <li>Vue.js</li>
-                  <li>JavaScript</li>
-                  <li>PHP</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>SQLite</li>
-                </ul>
-                <div class="work__links">
-                  <a href="project6.html" class="link__text">
-                    See More <span>&rarr;</span>
-                  </a>
-                  <a href="https://github.com/KareemNHE/Student_Progression_Tracker.git" title="View Source Code" target="_blank">
-                    <img src="./images/github.svg" class="work__code" alt="GitHub" />
-                  </a>
-                </div>
-              </div>
-              <div class="work__image-box slideshow-container">
-                <div class="slide">
-                  <img src="./images/student_tracker_ss.png" class="work__image" alt="Student progression tracker screenshot 1" />
-                </div>
-                <div class="slide">
-                  <img src="./images/student_tracker_ss2.png" class="work__image" alt="Student progression tracker screenshot 2" />
-                </div>
-                <div class="slide">
-                  <img src="./images/student_tracker_ss3.png" class="work__image" alt="Student progression tracker screenshot 3" />
-                </div>
-                <a class="prev" onclick="changeSlide(this, -1)">&#10094;</a>
-                <a class="next" onclick="changeSlide(this, 1)">&#10095;</a>
-              </div>
-            </div>
-
-            <!-- Optional Project: Algorithms -->
-            <div class="work__box">
-              <div class="work__text">
-                <h3>Algorithm and Data Structure Programs</h3>
-                <p>
-                  A collection of algorithm and data structure implementations covering sorting, heuristic search,
-                  pathfinding, graphs, trees, and hash tables. This project demonstrates core computer science knowledge,
-                  problem solving, and understanding of computational complexity.
-                </p>
-                <ul class="work__list">
-                  <li>C++</li>
-                  <li>C#</li>
-                  <li>Algorithms</li>
-                  <li>Data Structures</li>
-                </ul>
-                <div class="work__links">
-                  <a href="project5.html" class="link__text">
-                    See More <span>&rarr;</span>
-                  </a>
-                  <a href="https://github.com/KareemNHE/Algorithm_and_Data_Structure.git" title="View Source Code" target="_blank">
-                    <img src="./images/github.svg" class="work__code" alt="GitHub" />
-                  </a>
-                </div>
-              </div>
-              <div class="work__image-box slideshow-container">
-                <div class="slide">
-                  <img src="./images/ads_ss.png" class="work__image" alt="Algorithm project screenshot 1" />
-                </div>
-                <div class="slide">
-                  <img src="./images/ads2_ss.png" class="work__image" alt="Algorithm project screenshot 2" />
-                </div>
-                <a class="prev" onclick="changeSlide(this, -1)">&#10094;</a>
-                <a class="next" onclick="changeSlide(this, 1)">&#10095;</a>
-              </div>
+              <a class="prev" onclick="changeSlide(this, -1)">&#10094;</a>
+              <a class="next" onclick="changeSlide(this, 1)">&#10095;</a>
             </div>
           </div>
-        </div>
-      </section>
+          </div>
 
-      <!-- ***** About ***** -->
-      <section class="about" id="about">
-        <div class="row">
-          <h2>Get To Know Me</h2>
-          <div class="about__content">
-            <div class="about__text">
+          <!-- Project 7: Budget Date Planner  -->
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Plan Budget: Budget Date Planner</h3>
               <p>
-               I'm a Software Engineer with experience delivering front-end, full-stack, testing, and AI-driven solutions across financial services and technology environments. 
-               Through client engagements and personal projects, I've developed expertise in React, Spring Boot, Java, Python, mobile application development, 
-               and modern software engineering practices.
+                A mobile-first web application designed to help users discover date ideas and local activities based on
+                their budget,
+                occasion, preferred vibe, city, and available time. The platform combines personalised activity
+                recommendations,
+                community suggestions, and an AI-powered premium assistant to help users plan more meaningful
+                experiences.
               </p>
-              <p>
-                I enjoy building products that solve real-world problems and creating software that balances technical quality with great user experience. 
-                Whether I'm developing scalable web applications, designing mobile platforms with Flutter and Kotlin, or experimenting with AI technologies, 
-                I'm always looking for opportunities to learn, improve, and take ownership of meaningful work.
-              </p>
-              <p>
-                Alongside my professional experience, I'm currently developing a sports-focused social media platform that combines real-time interactions, 
-                personalised content, and modern mobile architecture. Projects like this allow me to explore new technologies while continuing to 
-                grow as an engineer beyond my day-to-day work.
-              </p>
-              <p>
-                Outside of technology, I'm a dedicated national trampolinist and former university performance scholar, 
-                having competed at the English and British Championships. The discipline, consistency, and resilience developed through sport are 
-                qualities I bring into every project. Having lived in the UK, Egypt, Saudi Arabia, and Dubai, I enjoy travelling, experiencing 
-                different cultures, and continuously broadening my perspective both professionally and personally.
-              </p>
-              <a href="Kareem Eid CV.pdf" class="btn">My Resume</a>
+              <ul class="work__list">
+                <li>React.js</li>
+                <li>Spring Boot</li>
+                <li>Supabase</li>
+                <li>REST APIs</li>
+                <li>AI Assistant</li>
+                <li>Mobile-First Design</li>
+              </ul>
+              <div class="work__links">
+                <a href="project7.html" class="link__text">
+                  See More <span>&rarr;</span>
+                </a>
+              </div>
             </div>
+            <div class="work__image-box slideshow-container budget-planner-gallery">
+              <div class="work__image-box slideshow-container">
+                <div class="slide">
+                  <img src="./images/planb_ss1.png" class="work__image" alt="Plan Budget screen shot 1" />
+                </div>
+                <div class="slide">
+                  <img src="./images/planb_ss2.png" class="work__image" alt="Plan Budget screen shot 2" />
+                </div>
+                <div class="slide">
+                  <img src="./images/planb_ss3.png" class="work__image" alt="Plan Budget screen shot 3" />
+                </div>
+                <div class="slide">
+                  <img src="./images/planb_ss4.png" class="work__image" alt="Plan Budget screen shot 4" />
+                </div>
+                <div class="slide">
+                  <img src="./images/planb_ss5.png" class="work__image" alt="Plan Budget screen shot 5" />
+                </div>
+                <div class="slide">
+                  <img src="./images/planb_ss6.png" class="work__image" alt="Plan Budget screen shot 6" />
+                </div>
+                <a class="prev" onclick="changeSlide(this, -1)">&#10094;</a>
+                <a class="next" onclick="changeSlide(this, 1)">&#10095;</a>
+              </div>
+          </div>
+          </div>
 
-            <div class="about__photo-container">
-              <img class="about__photo" src="./images/me.jpg" alt="Kareem Eid" />
+          <!-- Project 2: Chesterfield Royal Hospital -->
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Chesterfield Royal Hospital Navigation Web Application <i>(Group Project)</i></h3>
+              <p>
+                A user-centred hospital navigation system designed to help visitors move through a complex hospital
+                site using QR codes, interactive maps, written directions, and video walkthroughs. The platform also
+                gives staff the ability to update route information, making the system scalable and easier to maintain.
+              </p>
+              <ul class="work__list">
+                <li>React.js</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>REST APIs</li>
+                <li>Geolocation API</li>
+                <li>Agile Scrum</li>
+              </ul>
+              <p>
+                <strong>Key focus:</strong> accessibility, user experience, route management, QR-based navigation,
+                and real-world stakeholder requirements.
+              </p>
+              <div class="work__links">
+                <a href="project2.html" class="link__text">
+                  See More <span>&rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box slideshow-container">
+              <div class="slide">
+                <img src="./images/crh_ss.png" class="work__image"
+                  alt="Chesterfield Royal Hospital project screenshot 1" />
+              </div>
+              <div class="slide">
+                <img src="./images/crh_ss2.png" class="work__image"
+                  alt="Chesterfield Royal Hospital project screenshot 2" />
+              </div>
+              <div class="slide">
+                <img src="./images/crh_ss3.png" class="work__image"
+                  alt="Chesterfield Royal Hospital project screenshot 3" />
+              </div>
+              <a class="prev" onclick="changeSlide(this, -1)">&#10094;</a>
+              <a class="next" onclick="changeSlide(this, 1)">&#10095;</a>
             </div>
           </div>
-        </div>
-      </section>
-    </main>
 
-    <!-- ***** Contact ***** -->
-    <section class="contact" id="contact">
+          <!-- Project 3: AI Image Caption Generator -->
+          <div class="work__box">
+            <div class="work__text">
+              <h3>AI Image Caption Generator</h3>
+              <p>
+                An AI-powered image captioning project built with Python and TensorFlow. The system uses a deep
+                learning pipeline and encoder-decoder architecture to generate natural language descriptions for images,
+                demonstrating practical experience in machine learning, data preparation, and model evaluation.
+              </p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li>TensorFlow</li>
+                <li>NumPy</li>
+                <li>Pandas</li>
+                <li>Deep Learning</li>
+              </ul>
+              <div class="work__links">
+                <a href="project4.html" class="link__text">
+                  See More <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/KareemNHE/AI_Image_Caption.git" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub" />
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box slideshow-container">
+              <div class="slide">
+                <img src="./images/ai_icg_ss.png" class="work__image" alt="AI image caption generator screenshot 1" />
+              </div>
+              <div class="slide">
+                <img src="./images/ai_icg_ss2.png" class="work__image" alt="AI image caption generator screenshot 2" />
+              </div>
+              <a class="prev" onclick="changeSlide(this, -1)">&#10094;</a>
+              <a class="next" onclick="changeSlide(this, 1)">&#10095;</a>
+            </div>
+          </div>
+
+          <!-- Project 4: Library Management System -->
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Advanced Library Management System Web Application <i>(Group Project)</i></h3>
+              <p>
+                A full-stack multimedia library platform supporting user memberships, media rentals, secure access,
+                catalogue search, and availability tracking. The project demonstrates backend development, database
+                design, authentication, and payment workflow implementation.
+              </p>
+              <ul class="work__list">
+                <li>Laravel</li>
+                <li>PHP</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>MySQL</li>
+                <li>phpMyAdmin</li>
+              </ul>
+              <div class="work__links">
+                <a href="project1.html" class="link__text">
+                  See More <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/KareemNHE/Advanced_Library_Management_System.git" title="View Source Code"
+                  target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub" />
+                </a>
+              </div>
+            </div>
+
+            <div class="work__image-box slideshow-container">
+              <div class="slide">
+                <img src="./images/alms_ss.png" class="work__image" alt="Library management project screenshot 1" />
+              </div>
+              <div class="slide">
+                <img src="./images/alms_ss2.png" class="work__image" alt="Library management project screenshot 2" />
+              </div>
+              <div class="slide">
+                <img src="./images/alms_ss3.png" class="work__image" alt="Library management project screenshot 3" />
+              </div>
+              <div class="slide">
+                <img src="./images/alms_ss4.png" class="work__image" alt="Library management project screenshot 4" />
+              </div>
+              <a class="prev" onclick="changeSlide(this, -1)">&#10094;</a>
+              <a class="next" onclick="changeSlide(this, 1)">&#10095;</a>
+            </div>
+          </div>
+
+          <!-- Project 5: Student Progression Tracker -->
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Student Progression Tracker Web Application <i>(Group Project)</i></h3>
+              <p>
+                A university management tool that helps academic staff monitor student progress through visual tracking,
+                administrative controls, and communication features. The system was designed to support early
+                intervention
+                and improve visibility over student performance.
+              </p>
+              <ul class="work__list">
+                <li>Vue.js</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SQLite</li>
+              </ul>
+              <div class="work__links">
+                <a href="project6.html" class="link__text">
+                  See More <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/KareemNHE/Student_Progression_Tracker.git" title="View Source Code"
+                  target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub" />
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box slideshow-container">
+              <div class="slide">
+                <img src="./images/student_tracker_ss.png" class="work__image"
+                  alt="Student progression tracker screenshot 1" />
+              </div>
+              <div class="slide">
+                <img src="./images/student_tracker_ss2.png" class="work__image"
+                  alt="Student progression tracker screenshot 2" />
+              </div>
+              <div class="slide">
+                <img src="./images/student_tracker_ss3.png" class="work__image"
+                  alt="Student progression tracker screenshot 3" />
+              </div>
+              <a class="prev" onclick="changeSlide(this, -1)">&#10094;</a>
+              <a class="next" onclick="changeSlide(this, 1)">&#10095;</a>
+            </div>
+          </div>
+
+          
+    </section>
+
+    <!-- ***** About ***** -->
+    <section class="about" id="about">
       <div class="row">
-        <h2>Get in Touch</h2>
-        <div class="contact__info">
-          <p>
-            If you’re interested in discussing opportunities in software engineering, full-stack development, mobile application development,
-            or AI-driven solutions, I’d love to hear from you.
-          </p>
-          <p>
-            I’m always open to new challenges, collaborative projects, and opportunities to build products that solve real-world problems.
-            The best way to reach me is via email, and I’ll do my best to respond promptly.
-          </p>
-          <a href="mailto:Kareemnhe@gmail.com" class="btn">Kareemnhe@gmail.com</a>
-          <a href="tel:+447889726684" class="btn">+44 7889726684</a>
+        <h2>Get To Know Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <p>
+              I'm a Software Engineer with experience delivering front-end, full-stack, testing, and AI-driven solutions
+              across financial services and technology environments.
+              Through client engagements and personal projects, I've developed expertise in React, Spring Boot, Java,
+              Python, mobile application development,
+              and modern software engineering practices.
+            </p>
+            <p>
+              I enjoy building products that solve real-world problems and creating software that balances technical
+              quality with great user experience.
+              Whether I'm developing scalable web applications, designing mobile platforms with Flutter and Kotlin, or
+              experimenting with AI technologies,
+              I'm always looking for opportunities to learn, improve, and take ownership of meaningful work.
+            </p>
+            <p>
+              Alongside my professional experience, I'm currently developing a sports-focused social media platform that
+              combines real-time interactions,
+              personalised content, and modern mobile architecture. Projects like this allow me to explore new
+              technologies while continuing to
+              grow as an engineer beyond my day-to-day work.
+            </p>
+            <p>
+              Outside of technology, I'm a dedicated national trampolinist and former university performance scholar,
+              having competed at the English and British Championships. The discipline, consistency, and resilience
+              developed through sport are
+              qualities I bring into every project. Having lived in the UK, Egypt, Saudi Arabia, and Dubai, I enjoy
+              travelling, experiencing
+              different cultures, and continuously broadening my perspective both professionally and personally.
+            </p>
+            <a href="Kareem Eid CV.pdf" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <img class="about__photo" src="./images/me.jpg" alt="Kareem Eid" />
+          </div>
         </div>
       </div>
     </section>
+  </main>
 
-    <!-- ***** Footer ***** -->
-    <footer role="contentinfo" class="footer">
-      <div class="row">
-        <ul class="footer__social-links">
-          <li class="footer__social-link-item">
-            <a href="https://instagram.com/KareemNHE?igsh=Z2hvanc3azZsOXh5&utm_source=qr" title="Link to Instagram Profile">
-              <img src="./images/logo-instagram.svg" class="footer__social-image" alt="Instagram" />
-            </a>
-          </li>
-          <li class="footer__social-link-item">
-            <a href="https://github.com/KareemNHE" title="Link to Github Profile">
-              <img src="./images/github.svg" class="footer__social-image" alt="Github" />
-            </a>
-          </li>
-          <li class="footer__social-link-item">
-            <a href="https://www.linkedin.com/in/kareemnheid" title="Link to Linkedin Profile">
-              <img src="./images/linkedin.svg" class="footer__social-image" alt="Linkedin" />
-            </a>
-          </li>
-        </ul>
+  <!-- ***** Contact ***** -->
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          If you’re interested in discussing opportunities in software engineering, full-stack development, mobile
+          application development,
+          or AI-driven solutions, I’d love to hear from you.
+        </p>
+        <p>
+          I’m always open to new challenges, collaborative projects, and opportunities to build products that solve
+          real-world problems.
+          The best way to reach me is via email, and I’ll do my best to respond promptly.
+        </p>
+        <a href="mailto:Kareemnhe@gmail.com" class="btn">Kareemnhe@gmail.com</a>
+        <a href="tel:+447889726684" class="btn">+44 7889726684</a>
       </div>
-    </footer>
+    </div>
+  </section>
 
-    <a href="#top" class="back-to-top" title="Back to Top">
-      <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
-    </a>
+  <!-- ***** Footer ***** -->
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://instagram.com/KareemNHE?igsh=Z2hvanc3azZsOXh5&utm_source=qr"
+            title="Link to Instagram Profile">
+            <img src="./images/logo-instagram.svg" class="footer__social-image" alt="Instagram" />
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/KareemNHE" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github" />
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/kareemnheid" title="Link to Linkedin Profile">
+            <img src="./images/linkedin.svg" class="footer__social-image" alt="Linkedin" />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
 
-    <script src="./index.js"></script>
-    <script>
-      const handleFirstTab = (e) => {
-        if (e.key === 'Tab') {
-          document.body.classList.add('user-is-tabbing');
-          window.removeEventListener('keydown', handleFirstTab);
-          window.addEventListener('mousedown', handleMouseDownOnce);
-        }
-      };
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
+  </a>
 
-      const handleMouseDownOnce = () => {
-        document.body.classList.remove('user-is-tabbing');
-        window.removeEventListener('mousedown', handleMouseDownOnce);
-        window.addEventListener('keydown', handleFirstTab);
-      };
-
-      window.addEventListener('keydown', handleFirstTab);
-
-      const backToTopButton = document.querySelector('.back-to-top');
-      let isBackToTopRendered = false;
-
-      let alterStyles = (isBackToTopRendered) => {
-        backToTopButton.style.visibility = isBackToTopRendered ? 'visible' : 'hidden';
-        backToTopButton.style.opacity = isBackToTopRendered ? 1 : 0;
-        backToTopButton.style.transform = isBackToTopRendered ? 'scale(1)' : 'scale(0)';
-      };
-
-      window.addEventListener('scroll', () => {
-        if (window.scrollY > 700) {
-          isBackToTopRendered = true;
-          alterStyles(isBackToTopRendered);
-        } else {
-          isBackToTopRendered = false;
-          alterStyles(isBackToTopRendered);
-        }
-      });
-
-      document.addEventListener('DOMContentLoaded', function () {
-        const slideshows = document.querySelectorAll('.slideshow-container');
-        slideshows.forEach((container) => {
-          const slides = container.querySelectorAll('.slide');
-          slides.forEach((slide, index) => {
-            slide.style.display = index === 0 ? 'block' : 'none';
-          });
-        });
-      });
-
-      function changeSlide(btn, n) {
-        const container = btn.parentElement;
-        const slides = container.querySelectorAll('.slide');
-        let currentIndex = 0;
-
-        slides.forEach((slide, index) => {
-          if (slide.style.display === 'block') {
-            currentIndex = index;
-          }
-        });
-
-        let newIndex = currentIndex + n;
-        if (newIndex < 0) newIndex = slides.length - 1;
-        if (newIndex >= slides.length) newIndex = 0;
-
-        slides.forEach((slide) => {
-          slide.style.display = 'none';
-        });
-        slides[newIndex].style.display = 'block';
+  <script src="./index.js"></script>
+  <script>
+    const handleFirstTab = (e) => {
+      if (e.key === 'Tab') {
+        document.body.classList.add('user-is-tabbing');
+        window.removeEventListener('keydown', handleFirstTab);
+        window.addEventListener('mousedown', handleMouseDownOnce);
       }
-    </script>
-  </body>
+    };
+
+    const handleMouseDownOnce = () => {
+      document.body.classList.remove('user-is-tabbing');
+      window.removeEventListener('mousedown', handleMouseDownOnce);
+      window.addEventListener('keydown', handleFirstTab);
+    };
+
+    window.addEventListener('keydown', handleFirstTab);
+
+    const backToTopButton = document.querySelector('.back-to-top');
+    let isBackToTopRendered = false;
+
+    let alterStyles = (isBackToTopRendered) => {
+      backToTopButton.style.visibility = isBackToTopRendered ? 'visible' : 'hidden';
+      backToTopButton.style.opacity = isBackToTopRendered ? 1 : 0;
+      backToTopButton.style.transform = isBackToTopRendered ? 'scale(1)' : 'scale(0)';
+    };
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 700) {
+        isBackToTopRendered = true;
+        alterStyles(isBackToTopRendered);
+      } else {
+        isBackToTopRendered = false;
+        alterStyles(isBackToTopRendered);
+      }
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+      const slideshows = document.querySelectorAll('.slideshow-container');
+      slideshows.forEach((container) => {
+        const slides = container.querySelectorAll('.slide');
+        slides.forEach((slide, index) => {
+          slide.style.display = index === 0 ? 'block' : 'none';
+        });
+      });
+    });
+
+    function changeSlide(btn, n) {
+      const container = btn.parentElement;
+      const slides = container.querySelectorAll('.slide');
+      let currentIndex = 0;
+
+      slides.forEach((slide, index) => {
+        if (slide.style.display === 'block') {
+          currentIndex = index;
+        }
+      });
+
+      let newIndex = currentIndex + n;
+      if (newIndex < 0) newIndex = slides.length - 1;
+      if (newIndex >= slides.length) newIndex = 0;
+
+      slides.forEach((slide) => {
+        slide.style.display = 'none';
+      });
+      slides[newIndex].style.display = 'block';
+    }
+  </script>
+</body>
+
 </html>
